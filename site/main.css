@@ -1,0 +1,342 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    font-family: 'Cuprum', Arial, Helvetica, sans-serif;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+    
+
+}
+
+
+
+.logo{
+    position: absolute;
+    top: 3vh;
+    left: 30px;
+    color: white;
+    font-weight: 700;
+    transition-duration: 1s;
+}
+.logo:hover{
+    transform: rotate(360deg) scale(1.5);
+    transition-duration: 2s;
+    
+}
+
+.navbar > ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+.navbar > ul li{
+  display: block; 
+  padding: 3.5vh 35px 15px 40px; 
+  font-size: 20px;
+  color: black;
+  border-right: 2px solid #b2b3b5; 
+  color: white;
+  padding-bottom: 35px;
+
+}
+
+
+.navbar :link{
+    text-decoration: none;
+    color: inherit;
+}
+.navbar :visited{
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar > ul li:first-child{
+    border-left: 2px solid #b2b3b5;
+}
+.navbar > ul li:last-child{
+    border-right: 2px solid #b2b3b5;
+}
+.navbar li :hover{
+    display: block;
+    background-color:white;
+    color: black;
+    box-shadow: 1px 5px 10px -5p white;
+    
+}
+
+/* 1 сторінка */
+.contaiter{
+    
+    margin: 0;
+    padding: 0;
+    background: url(../img/-min.jpg);
+    width:100%;
+    height: 849px;
+    color: white;
+    text-align: center;
+}
+.contaiter_2{
+max-width: 40%;
+
+}
+.contaiter h1{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 168px;
+    padding-top: 150px;
+    margin: 0;
+}
+.contaiter h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 36px;
+    font-weight: 100;
+}
+.paragraf{
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 3px;
+    max-width: 700px;
+    margin: 0 auto;
+    
+    
+}
+.contaiter p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+
+.contaiter p a{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+}
+.contaiter button{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgb(206, 206, 30);
+    font-weight: 600;
+    cursor: pointer ;
+    border: none;
+    padding:25px 75px 25px 75px ;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+.contaiter button:hover{
+    background-color: white;
+}
+@media screen and (max-width: 726) {
+.paragraf{
+    display: block !important ;
+}
+    
+}
+
+/* 2 сторінка */
+.container_2{
+ 
+}
+
+
+.container_add{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    
+}
+
+
+.container_2 div{
+    
+}
+
+
+.container_2 .text{
+   max-width: 500px;
+}
+
+.text h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3.7rem;
+    font-weight: 700;
+}
+
+.text p {
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 2px;
+    line-height: 40px;
+    font-weight: 400;
+
+}
+
+.img_yllow {
+    height: 291px;
+    width: 291px;
+    background-color: rgb(236, 236, 35);
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+    
+}
+
+
+.img {
+    background: url(../img/c5e02fce-c0d2-0d86-c803-4283c6a5fc9f.jpg)0 0/ 100px 100px no-repeat;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-size:cover ;
+    margin-left: 10px ;
+}
+.container_2 p a{
+    color: black;
+}
+
+@media screen and (max-width: 1130px){
+    .img{
+        transform: scale(0.8);
+    }
+    .text{
+        margin-left: 40px;
+    }
+    .img{
+        margin-left: 100px;
+    }
+
+}
+@media screen and (max-width: 1130px){
+    .img{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 960px){
+    
+        .container_add{
+            flex-direction: column !important;
+            justify-content: space-between;
+            height: 1000px !important;
+        }
+    .text{
+    transform: scale(1.2);  
+    
+    }
+    .img{
+        transform: scale(1);
+    }
+    .img_yllow{
+        transform:scale(0.8) !important;
+        top: 30px;
+        left: 80px;
+    }
+    
+}
+
+
+
+
+/* сторінка 3 */
+
+
+
+
+ .container_3 {
+    min-height: 941px;
+    width: 100%;
+    background-color: #292d33;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contaiter_container {
+    max-width: 1140px;
+    margin: 0 auto;
+    display:flex;
+}
+
+.about {
+}
+
+
+.img_block {
+    height: 754px;
+    width: 646px;
+    
+    background:url(../img/vv-min.jpg)50% no-repeat;
+    background-size: cover;
+}
+
+.contaiter_block{
+    margin-right:-100px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1;
+    margin-top: -85px;
+}
+
+.contaiter_block div {
+    width: 593px;
+    height: 143px;
+    background-color: white;
+    color: black;
+    padding: 20px 20px 20px 0;
+    margin-top: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+.contaiter_block div h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 13px;
+}
+.contaiter_block div p{
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 13px;
+}
+
+.about p a{
+    color: white;
+}
+.about p{
+    display: flex;
+    justify-content: flex-end;
+    color: white;
+}
+
+@media screen and (max-width: 1200px) {
+    .contaiter_block{
+        margin-right:-200px ;
+    }
+    
+}
+@media screen and (max-width: 1074px) {
+    .contaiter_block{
+        margin-right:-250px ;
+    }
+}
+@media screen and (max-width: 1074px) {
+    
+    .contaiter_container{
+        margin-top: 100px !important;
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0 ;
+        padding: 0;
+    }
+    .contaiter_block{
+        margin-right:0 !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 1;
+        margin-top: 0 !important;
+    }
+}
