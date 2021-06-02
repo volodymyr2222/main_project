@@ -280,6 +280,7 @@ max-width: 40%;
     justify-content: center;
     z-index: 1;
     margin-top: -85px;
+    margin-bottom: 100px;
 }
 
 .contaiter_block div {
@@ -340,3 +341,266 @@ max-width: 40%;
         margin-top: 0 !important;
     }
 }
+
+
+/* cторінка 4 */
+
+
+.container_stor_4 {
+
+}
+
+
+
+.container_block_stor_4 {
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+
+.block_title {
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+
+
+.block_title_1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+    
+}
+
+
+.block_title_2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+
+.yellow_ol{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: rgb(230, 230, 59);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.nomer{
+    font-size: 32px;
+    align-self: center;
+   
+}
+
+.block_text_oll{
+    /* border: 1px solid red; */
+    width: 350px;
+    
+    
+}
+
+.block_text   {
+    
+    
+}
+
+.block_11{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.block_22{
+    display: flex;
+    justify-content: center;
+}
+.bbvv{
+    
+}
+
+
+.block_text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+.block_text h4{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.block_text h5 a{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+
+.block_text_1 {
+
+}
+
+
+
+.yellow_1 {
+
+}
+
+
+.block_text_2 {
+
+}
+
+
+.yellow_2 {
+
+}
+
+
+.block_text_3 {
+
+}
+
+
+.yellow_3 {
+
+}
+
+
+.block_text_4 {
+
+}
+
+
+.yellow_4 {
+
+}
+
+
+.block_text_5 {
+
+}
+
+
+.yellow_5 {
+
+}
+
+
+.block_text_6 {
+
+}
+
+
+.yellow_6 {
+
+}
+
+
+
+
+/* сторінка 5 */
+
+.container_stor_5 {
+    width: 100%;
+    min-height: 730px;
+    background-image: linear-gradient(0deg, rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../img/2.jpg); ;
+    background-position: 50% 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:100px ;
+}
+
+.container_block_stor_5 {
+    color: white;
+    margin: 0 auto;
+    display:flex;
+    margin-top: 100px;
+    
+    
+}
+
+.content_1 {
+    width: 510px;
+    height: 518px;
+    padding: 20px;
+}
+
+.paragraf_2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+}
+
+.yellow_33 {
+    width: 281px;
+    height: 16px;
+    background-color: rgb(206, 206, 30);
+    margin-top: 33px;
+}
+
+.paragraf_3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    margin-top: 45px;
+}
+
+.content_2 {
+    width: 510px;
+    height: 518px;
+    margin-top: 137px ;
+    padding: 20px;
+}
+
+.paragraf_4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    word-spacing: 5px;
+    letter-spacing: 1px;
+}
+
+.paragraf_5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    margin-top:30px ;
+}
+.paragraf_5 a {
+    color: white;
+}
+
+.button_2 button {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: rgb(206, 206, 30);
+    font-weight: 600;
+    cursor: pointer ;
+    border: none;
+    padding:25px 75px 25px 75px ;
+    letter-spacing: 1px;
+    margin-top: 40px;
+}
+.button_2 button:hover{
+    background-color: white;
+}
+
+
+
